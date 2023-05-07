@@ -1,0 +1,170 @@
+<style>
+ 
+    *{
+      margin: 0;
+    }
+    .background{
+      object-fit: cover;
+      filter: brightness(50%)
+      position: relative;
+    }
+    .container{
+      position : relative;
+    }
+    
+    .canvas{
+      height: 470px;
+      width: 350px;
+      position: absolute;
+      background-color: rgba(0,0,0,0.7);
+      margin-top: 80px;
+      margin-left: 400px;
+      padding: 25px;
+      
+    }
+    .shadow{
+      height: 600px;
+      width: 1200px;
+      background-color: rgba(0,0,0,0.5);
+      position: absolute;
+    }
+    .logo{
+      width: 130px;
+      position: absolute;
+      margin: 10px;
+      filter: brightness(105%);
+    }
+    .sign-in{
+      font-size: 28px ;
+      font-family: Arial;
+      color: rgba(255,255,255,1);
+      font-weight: bold;
+      margin-left: 25px;
+      margin-bottom: 20px;
+      margin-top: 25px;
+    }
+    .enter{
+      display: block;
+      margin-left: 25px;
+      margin-bottom: 20px;
+      padding: 8px;
+      width: 300px ;
+      height: 40px;
+      background-color: rgba(52,52,52,0.9);
+      border: none;
+      border-radius: 3px;
+      letter-spacing: 0px;
+      font-family: Arial ;
+      word-break: 1px;
+      font-size: 12px ;
+      color: #ecf0f2;
+      font-weight: 450;
+      cursor: pointer;
+    }
+    input[type="text"]:hover {
+      border: 2px solid rgba(252,0,2,1);
+      background-color: white;
+      color: black;
+    }
+    .sign-button{
+      width: 300px ;
+      height: 40px;
+      margin-left: 25px ;
+      background-color: rgba(252,0,2,1);
+      border: none;
+      color: white;
+      font-weight: bold;
+      font-family: Arial;
+      font-size: 13px;
+      border-radius: 3px;
+      display: block;
+      margin-bottom: 4px;
+      cursor: pointer;
+    }
+    .sign-button:hover{
+      border: 2px solid rgba(252,0,2,1);
+      background-color: rgba(52,52,52,1);
+      color: #ecf0f2 ;
+      opacity: 0.7;
+    }
+    
+    input[type='checkbox'] {
+      margin-left: 25px;
+      accent-color: rgba(252,0,2,1);
+      cursor: pointer;
+    }
+   
+    .remember{
+      display: inline;
+      font-size:11px;
+      font-family: Arial;
+      font-weight: 500;
+      color: gray;
+      word-spacing : 1px;
+      margin-right: 142px;
+    }
+    .need-help{
+      display: inline;
+      text-align: right;
+      margin-right: 0px;
+      color : white;
+      font-size:11px;
+      font-family: Arial;
+      font-weight: 500;
+      color: gray;
+      letter-spacing: 0px;
+    }
+    .need-help:hover{
+      color: rgba(252, 0, 2, 1);
+      text-decoration : underline;
+    }
+    .new{
+      font-size: 15px;
+      font-family: Arial;
+      font-weight: 450;
+      color : gray;
+      margin-top: 90px;
+      margin-left: 25px;
+      margin-bottom: 12px;
+    }
+    .new-span{
+      color: white;
+    }
+    .new-span:hover{
+      color: rgba(252,0,2,1) ;
+      text-decoration : underline;
+    }
+   .captcha{
+     font-size: 12px;
+     font-weight: 420;
+     color: gray;
+     margin-left: 25px;
+     width: 250px;
+     font-family: Arial;
+   }
+   .learn-more{
+     color: #7d91be;
+   }
+   .learn-more:hover{
+     text-decoration: underline;
+   }
+   </style>
+   
+   <div class="container">
+       <div class="shadow">  </div>
+       <div class="canvas">
+          <p class="sign-in">Sign In</p>
+          <input class="enter" type="text" placeholder="Email or phone number">
+          <input class="enter" type="text" placeholder="Password">
+          <button class="sign-button">Sign In</button>
+          <input class="filled-in" type="checkbox">
+          <p class="remember">Remember me</p>
+          <p class="need-help">Need Help?</p>
+          <p class="new">New to Netflix ? <span class="new-span">Sign up now</span></p>
+          <p class="captcha">This page is protected by Google reCAPTCHA to ensure you're not a bot.<span class="learn-more">Learn more</span></p>
+       </div>
+       <img class="logo"src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="netflix">
+       
+   
+   </div>
+     <img class="background"src="https://blog.vpncity.com/wp-content/uploads/2020/01/xx.png" alt="hello">
